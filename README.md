@@ -30,7 +30,7 @@ This repository **uses submodules**, meaning the client and server are independe
 ### Cloning the repository
 
 ```bash
-git clone --recurse-submodules git@github.com:YourName/carrom-online.git
+git clone --recurse-submodules git@github.com:Aspiring-Creators-Nightingale/carrom-arena.git
 ```
 
 If you already cloned without `--recurse-submodules`:
@@ -60,16 +60,6 @@ Then, update the main repo to point to the new submodule commits:
 cd ..
 git add client server
 git commit -m "Update submodules to latest commits"
-git push
-```
-
----
-
-### Adding new submodules
-
-```bash
-git submodule add <repo-url> <path>
-git commit -m "Add new submodule"
 git push
 ```
 
