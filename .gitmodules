@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = git@github.com:Aspiring-Creators-Nightingale/carrom-arena-client.git
+[submodule "server"]
+	path = server
+	url = git@github.com:Aspiring-Creators-Nightingale/carrom-arena-server.git
